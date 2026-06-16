@@ -197,7 +197,7 @@ if uploaded_file:
 
     with col1:
         st.markdown('<div class="card" style="padding:12px">', unsafe_allow_html=True)
-        st.image(image, use_container_width=True, caption='Your uploaded image')
+        st.image(image, use_column_width=True, caption='Your uploaded image')
         st.markdown('</div>', unsafe_allow_html=True)
 
     with st.spinner('🔍 Analyzing fruit quality...'):
