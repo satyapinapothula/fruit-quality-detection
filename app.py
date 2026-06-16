@@ -142,7 +142,7 @@ CLASS_DISPLAY = {'freshapples':'Fresh Apple','freshbanana':'Fresh Banana','fresh
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('/home/rgukt/best_fruit_model.h5')
+    return tf.keras.models.load_model('best_fruit_model.h5')
 
 def predict(image, model):
     img = np.array(image.convert('RGB'))
