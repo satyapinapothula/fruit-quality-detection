@@ -266,8 +266,9 @@ else:
 
 st.markdown("""
 <div class="footer">
-    🍎 Built by <strong style="color:#667eea">Pinapothula Satya Sai Durga</strong>
-    &nbsp;|&nbsp; B.Tech CSE · RGUKT Ongole &nbsp;|&nbsp;
+    🍎 Built by using 
+                #<strong style="color:#667eea">Pinapothula Satya Sai Durga</strong>
+   # &nbsp;|&nbsp; B.Tech CSE · RGUKT Ongole &nbsp;|&nbsp;
     TensorFlow · OpenCV · CNN · Streamlit
 </div>
 """, unsafe_allow_html=True)
